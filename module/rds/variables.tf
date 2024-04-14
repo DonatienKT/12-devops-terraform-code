@@ -31,10 +31,12 @@ variable "identifier" {
 
 variable "username" {
   sensitive = true
+  #default = "admin"
 }
 
 variable "password" {
   sensitive = true
+  #default = "abcd1234"
 }
 
 variable "instance_class" {

@@ -6,5 +6,6 @@ variable "region_name" {
 
 variable "key_name" {
   description = "key name"
+  #default = "wordpress2"
   
 }
